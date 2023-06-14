@@ -21,11 +21,11 @@ public class Dice{
 
     if(count>=7)
     {
-        System.out.println("You win!");
+        System.out.println(name+" win!");
     }
     else
     {
-        System.out.println("You lost!");
-    }   
+        System.out.println(name+" lost!");
+    } 
   }
 }
